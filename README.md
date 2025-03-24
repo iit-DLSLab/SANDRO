@@ -10,7 +10,8 @@ Unlike traditional methods that struggle with **point cloud symmetries** and **h
 
 ## 🔔 Updates  
 
-✅ **The paper has been accepted to ICRA 2025!** 🎉 Stay tuned for more updates and the official code release!
+✅ **The paper has been accepted to ICRA 2025 and it is available [here](https://arxiv.org/pdf/2503.07743v1)!!** 
+🎉 Stay tuned for more updates and the official code release!
 
 ## 🔧 Installation  
 
