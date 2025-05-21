@@ -1,0 +1,10 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+_anaconda_depends=2022.05=py39_0
+_ipyw_jlab_nb_ext_conf=0.1.0=py39hecd8cb5_1
+_tflow_select=2.2.0=eigen
+open3d==0.16.1
+numpy==2.0.2
+torch==2.0.1
+scipy==1.7.3
