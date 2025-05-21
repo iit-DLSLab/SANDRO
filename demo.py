@@ -4,7 +4,7 @@ SANDRO: A Robust Solver with a Splitting Strategy for Point Cloud Registration
 Dynamic Legged Systems Lab - Istituto Italiano di Tecnologia
 
 Developed by Michael Adlerstein
-Maintened by Michael Adlerstein, João Carlos Virgolino Soares, Angelo Bratta
+Maintained by Michael Adlerstein, João Carlos Virgolino Soares, Angelo Bratta
 
 '''
 
