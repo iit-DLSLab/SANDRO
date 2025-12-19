@@ -58,4 +58,8 @@ If you use SANDRO in your research, please cite:
 }
 ```
 
+## Maintainer
+
+This repository is maintained by [João Soares](https://github.com/virgolinosoares).
+
 
