@@ -8,13 +8,28 @@ A key feature of SANDRO is its **splitting strategy**, which partitions the poin
 
 Unlike traditional methods that struggle with **point cloud symmetries** and **high outlier rates**, SANDRO achieves superior accuracy and robustness.
 
+[[Paper]](https://arxiv.org/pdf/2503.07743v1) [[arXiv]](https://arxiv.org/abs/2503.07743v1)
+
+
 ## 🔔 Updates  
 
-✅ **The paper has been accepted to ICRA 2025 and it is available [here](https://arxiv.org/pdf/2503.07743v1)!!** 
+- [12/2025] Install instructions now available!
+
+- [05/2025] The paper has been accepted to ICRA 2025 and it is available [here](https://ieeexplore.ieee.org/document/11128360)-
 
 ## 🔧 Installation  
 
-🚧 **Installation instructions will be available soon**
+SANDRO depends on **Open3D**, which includes native (C++/OpenGL) components.
+For this reason, **Conda is the recommended installation method**.
+
+
+### Recommended Installation (Conda)
+
+#### 1. Clone the repository
+```bash
+git clone https://github.com/iit-DLSLab/SANDRO.git
+cd SANDRO
+```
 
 ## 📖 Usage  
 
@@ -25,11 +40,13 @@ Unlike traditional methods that struggle with **point cloud symmetries** and **h
 If you use SANDRO in your research, please cite:  
 
 ```bibtex
-@article{adlerstein2025sandro,
-  title={SANDRO: a Robust Solver with a Splitting Strategy for Point Cloud Registration},
-  author={Michael Adlerstein, João Carlos Virgolino Soares, Angelo Bratta, Claudio Semini},
-  journal={ICRA 2025},
-  year={2025}
+@INPROCEEDINGS{adlerstein2025sandro,
+  author={Adlerstein, Michael and Virgolino Soares, João Carlos and Bratta, Angelo and Semini, Claudio},
+  booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={SANDRO: A Robust Solver with a Splitting Strategy for Point Cloud Registration}, 
+  year={2025},
+  pages={11112-11118},
+  doi={10.1109/ICRA55743.2025.11128360}
 }
 ```
 
