@@ -1,0 +1,16 @@
+name: sandro
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9
+  - numpy
+  - scipy
+  - matplotlib
+  - open3d
+  - pytorch
+  - pip
+  - pip:
+      - tqdm
+      - opencv-python
+
