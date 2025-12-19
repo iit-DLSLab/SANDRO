@@ -56,6 +56,9 @@ def rigid_transform_3d( A, B, weights, weight_threshold=1e-5 , device = "cuda"):
         device = "cpu"
     A = A.to(device)
     B = B.to(device)
+    if weights is not None:
+        weights = weights.to(device)
+    
     bs = A.shape[0]
     if weights is None:
         weights = torch.ones_like(A[:, :, 0]).to(device)
