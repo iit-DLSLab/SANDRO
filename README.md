@@ -13,9 +13,9 @@ Unlike traditional methods that struggle with **point cloud symmetries** and **h
 
 ## 🔔 Updates  
 
-- [12/2025] Install instructions now available!
+- [12/2025] Install instructions and demo now available!
 
-- [05/2025] The paper has been accepted to ICRA 2025 and it is available [here](https://ieeexplore.ieee.org/document/11128360)-
+- [05/2025] The paper has been accepted to [ICRA 2025](https://ieeexplore.ieee.org/document/11128360)
 
 ## 🔧 Installation  
 
@@ -31,9 +31,17 @@ git clone https://github.com/iit-DLSLab/SANDRO.git
 cd SANDRO
 ```
 
-## 📖 Usage  
+#### 2. Create and activate the Conda environment
+```bash
+conda env create -f environment.yml
+conda activate sandro
+```
 
-🚧 **Usage examples will be provided soon**
+## 📖 Example: Open3D dataset
+
+```bash
+python3 demo.py
+```
 
 ## 📌 Citation  
 
